@@ -1,0 +1,4 @@
+#Enter your Spotify client id, client secret, and username here
+username =
+client_id =
+client_secret = 
