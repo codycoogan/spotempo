@@ -29,7 +29,7 @@ SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a ne
 **3. Download requirements.txt**
 - After downloading requirements.txt open terminal or command prompt
 - Go to the directory where this project is saved in
-- Run: pip install -r requirements.txt    in the command line
+- Run: pip install -r requirements.txt    in the command line to install the necessary libraries
 
 
 **4. Sign in to SpoTempo app**
