@@ -1,5 +1,6 @@
 # SpoTempo
-Sorts Spotify playlists by tempo of songs.
+SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a new playlist with the sorted tracks in either ascending or descending order. 
+
 # What You Will Need
 - Spotify account
 - Spotify client id (tutorial below)
