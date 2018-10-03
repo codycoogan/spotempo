@@ -32,7 +32,7 @@ SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a ne
 - Run: pip install -r requirements.txt    in the command line to install the necessary libraries
 
 
-**4. Sign in to SpoTempo app**
+**4. Sign in to Spotify in SpoTempo app**
 - Run spotempo.py in terminal/command prompt
 - Sign in to Spotify account when prompted in browser
 - If sign in was successful, copy the URL of the page that you were redirected to after signing in (google.com/...). This is for Spotify authorization purposes. (If sign in is unsuccessful re-run the program and attempt to sign in again)
