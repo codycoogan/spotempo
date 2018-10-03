@@ -7,7 +7,7 @@ SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a ne
 - Spotify client secret (tutorial below)
 
 # Set Up
-**1. Get Spotify client id and client secret**
+**1. Get Spotify client id and client secret, and set redirect URI**
 - Visit https://developer.spotify.com/dashboard/
 
 - Create an app 
