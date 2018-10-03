@@ -7,7 +7,7 @@ SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a ne
 - Spotify client secret (tutorial below)
 
 # Set Up
-1. Get Spotify client id and client secret
+**1. Get Spotify client id and client secret**
 - Visit https://developer.spotify.com/dashboard/
 
 - Create an app 
@@ -20,19 +20,19 @@ SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a ne
 - Press edit settings, then once in the Spotify project settings add https://www.google.com/ as the redirect URI
 
 
-2. Fill out config.txt 
+**2. Fill out config.txt** 
 - Open config.txt
 - Paste your Spotify client id, secret, and spotify username in the respective spots in the file
 - Save the file
 
 
-3. Download requirements.txt
+**3. Download requirements.txt**
 - After downloading requirements.txt open terminal or command prompt
 - Go to the directory where this project is saved in
 - Run: pip install -r requirements.txt    in the command line
 
 
-4. Sign in to SpoTempo app
+**4. Sign in to SpoTempo app**
 - Run spotempo.py in terminal/command prompt
 - Sign in to Spotify account when prompted in browser
 - If sign in was successful, copy the URL of the page that you were redirected to after signing in (google.com/...). This is for Spotify authorization purposes. (If sign in is unsuccessful re-run the program and attempt to sign in again)
