@@ -42,4 +42,4 @@ SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a ne
 - Make sure config.txt is filled out with valid information
 - Make sure config.txt, requirements.txt, and spotempo.py are all in the same directory on your computer
 - Make sure you have https://www.google.com/ saved as the redirect URI in your Spotify app settings
-- Make sure the playlist you would like to sort is in the top 50 
+- Make sure the playlist you would like to sort is in your most recent 50. You can move your playlists and/or playlists you follow up in your list to make sure they are in your yop 50. 
