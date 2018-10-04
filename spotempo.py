@@ -34,7 +34,7 @@ def main():
             print "Playlist found. Number of tracks: " + str(num_of_songs)
             break
     if not found:
-        print "Unable to find playlist: make sure it is in your top 50 most recent and you spell the name correctly"
+        print "Unable to find playlist: make sure it is in your first 50 playlists and you spell the name correctly"
         exit()
 
     # User chooses if they want new play list in ascending or descending order
