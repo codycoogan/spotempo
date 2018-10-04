@@ -23,19 +23,17 @@ def main():
     playlists_req = requests.get("https://api.spotify.com/v1/users/{}/playlists?limit=50".format(username),
                                  headers=header)
     playlists_names = playlists_req.json()["items"]
-    playlists_lower = []
+    found = False
     # Get each playlist, make it lowercase and put it in a list
     for pl in playlists_names:
         low_name = pl["name"].lower()
-        playlists_lower.append(low_name.strip())
-
-    # See if playlist exists, if so get playlist ID
-    if name.lower() in playlists_lower:
-        index = playlists_lower.index(name.lower())
-        playlist_id = playlists_names[index]["id"]
-        num_of_songs = playlists_names[index]["tracks"]["total"]
-        print "Playlist found. Number of tracks: " + str(num_of_songs)
-    else:
+        if low_name == name.lower():
+            found = True
+            playlist_id = pl["id"]
+            num_of_songs = pl["tracks"]["total"]
+            print "Playlist found. Number of tracks: " + str(num_of_songs)
+            break
+    if not found:
         print "Unable to find playlist: make sure it is in your top 50 most recent and you spell the name correctly"
         exit()
 
@@ -134,7 +132,7 @@ def spotify_authenticate(username, scope, client_id, client_secret):
     if token:
         return token
     else:
-        print("Couldn't get proper Spotify authentication")
+        print("Couldn't get proper Spotify authentication, please retry")
         exit()
 
 
