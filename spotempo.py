@@ -39,7 +39,7 @@ def main():
 
     # User chooses if they want new play list in ascending or descending order
     arrangement = raw_input("Would you like to arrange this playlist in\n"
-                            "1) Ascending order (Low to high temopos)\n"
+                            "1) Ascending order (Low to high tempos)\n"
                             "2) Descending order (High to low tempos)\n"
                             "Enter either 1 or 2: ").strip()
 
