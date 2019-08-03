@@ -1,6 +1,9 @@
 # SpoTempo
 SpoTempo **sorts tracks** from a Spotify playlist **by tempo**, and creates a new playlist with the sorted tracks in either ascending or descending order. 
 
+If you enjoy this program you can buy me a cup of coffee :)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S8HEDX3BSDKL8&source=url)
+
 # What You Will Need
 - Spotify account
 - Spotify client id (tutorial below)
